@@ -1,9 +1,11 @@
 package br.caelum.model;
 
+import javax.persistence.DiscriminatorColumn;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
+@DiscriminatorColumn(name = "tipo_pessoa")
 public class Pessoa {
 
     @Id
