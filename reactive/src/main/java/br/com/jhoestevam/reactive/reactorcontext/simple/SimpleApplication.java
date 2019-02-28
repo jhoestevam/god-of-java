@@ -26,7 +26,7 @@ public class SimpleApplication {
     
     private static <T> Flux<T> prepare(Flux<T> in) {
         return in
-                .doOnNext(t -> {})
+                .doOnNext(log::info)
                 .subscribeOn(scheduler);
                 
     }
