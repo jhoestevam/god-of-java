@@ -63,3 +63,9 @@ modules.xml
 *.ipr
 
 rebel.xml
+
+
+# eclipse project file
+.settings/
+.classpath
+.project
