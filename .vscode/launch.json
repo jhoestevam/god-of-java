@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DemoActuatorApplication",
+            "request": "launch",
+            "mainClass": "god.of.java.demoactuator.DemoActuatorApplication",
+            "projectName": "demo-actuator"
+        }
+    ]
+}
